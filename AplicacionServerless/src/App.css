@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.light {
+  background: white;
+  color: black;
+  min-height: 100vh;
+  padding: 30px;
+  transition: 0.3s;
+}
+
+.dark {
+  background: #111;
+  color: white;
+  min-height: 100vh;
+  padding: 30px;
+  transition: 0.3s;
+}
+
+h1 {
+  text-align: center;
+}
+
+.auth {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.sidebar {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.task-card {
+  padding: 15px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.task-card:hover {
+  transform: translateY(-3px);
+}
+
+p {
+  cursor: pointer;
+}
+
+.welcome {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.welcome h1 {
+  font-size: 3rem;
+}
+
+.welcome h2 {
+  font-weight: 400;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.message {
+  background: #4CAF50;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.link {
+  margin-top: 15px;
+  cursor: pointer;
+  color: #6c63ff;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.link:hover {
+  opacity: 0.7;
+}
