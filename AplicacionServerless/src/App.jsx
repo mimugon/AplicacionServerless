@@ -332,7 +332,7 @@ function App() {
       <main className="main">
         <header className="main-header">
           <div>
-            <h1 className="main-title">Hola, {profile?.name?.split(" ")[0]} 👋</h1>
+            <h1 className="main-title">Hola, {profile?.name?.split(" ")[0]} </h1>
             <p className="main-subtitle">
               {pendingCount === 0
                 ? "¡No tenés tareas pendientes!"
