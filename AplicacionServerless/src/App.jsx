@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react'
-import './App.css'
+/* eslint-disable no-unused-vars */ 
+import React, { useEffect, useState } from 'react' 
+import './App.css' 
 import { supabase } from './supabase'
 
 function App() {
